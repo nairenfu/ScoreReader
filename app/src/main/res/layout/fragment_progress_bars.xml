@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgressBars">
+
+    <ProgressBar
+        android:id="@+id/timeToScroll"
+        android:layout_width="12dip"
+        android:layout_height="match_parent"
+        style="@style/Widget.ProgressBar.Vertical" />
+</RelativeLayout>

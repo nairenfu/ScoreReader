@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_score_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.hylux.scorereader.ScoreView">
+
+    <fragment
+        class="com.hylux.scorereader.ScoreSheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pdfView"
+        tools:layout="@layout/fragment_pdfview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <fragment
+        class="com.hylux.scorereader.ProgressBars"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progressBars"
+        tools:layout="@layout/fragment_progress_bars"
+        />
+
+</RelativeLayout>

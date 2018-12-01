@@ -1,0 +1,51 @@
+PROGRESS
+
+10/12/2016	CHANGELOG
+
+		ScoreReader V1.0
+		Basic File Input System: Must type full path directly, no file selector.
+		Set Delay, ScrollSpeed sort of works, but disabled at the moment because crash if null.
+		File Opening Works, PDFViewer works.
+		Hardcoded landscape scaling.
+		Automatic Scrolling works, with initial delay but no idea how long.
+		Prevent screen lock.
+
+		TODO
+
+		Scroll based on percent of page
+		Different scroll percent for first page
+		Fix delay, scrollspeed setters.
+		Implement file selector.
+		Buttons for manual scrolling.
+		Voice control.
+
+11/12/2016	CHANGELOG
+		
+		ScoreReader V1.1
+		Catches exceptions and throws errors to minimise crashes.
+		Click to pause/start scrolling.
+		New scroll method by rows per page (maybe rename as segments?).
+		Added info page.
+
+		TODO
+		Make info page work.
+		Add help prompts.
+		Time to next scroll.
+		Location segment/page.
+		Implement set delay.
+		Implement file selector.
+		Buttons for manual scrolling.
+		Voice control.
+		Prettyfy!
+
+12/12/2016	CHANGELOG
+		V1.2
+		Displays time to next scroll.
+		Fixed Info Page
+		Info can be shown/hidden.
+		Cleaned code up.
+		
+		TODO
+		Gameify?
+		Change pause method to onpause().
+		Pause animation.
